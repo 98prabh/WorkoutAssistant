@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WorkoutAssistant</string>
+    <string-array name="choices">
+        <item>    Lap Count</item>
+        <item>    Sprint Count</item>
+    </string-array>
+</resources>
