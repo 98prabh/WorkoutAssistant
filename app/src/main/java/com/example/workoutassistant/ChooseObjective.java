@@ -10,12 +10,13 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class ChooseObjective extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class ChooseObjective extends AppCompatActivity  {
 
     Spinner spinner;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        /*super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_objective);
         spinner = findViewById(R.id.spinner);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.choices, android.R.layout.simple_spinner_item);
@@ -54,5 +55,7 @@ public class ChooseObjective extends AppCompatActivity implements AdapterView.On
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }*/
+        super.onCreate(savedInstanceState);
     }
 }
